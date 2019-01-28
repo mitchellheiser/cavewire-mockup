@@ -1,6 +1,6 @@
 <h1>CAVEWIRE MOCKUP</h1>
 <p>To run npm needs to be installed :
-<a> install npm</a> after npm is installed cd into the project file run npm i to install the dependencies then npm start will run the app on local host<p>
+<a href="https://www.npmjs.com/get-npm"> install npm</a> after npm is installed cd into the project file run npm i to install the dependencies then npm start will run the app on local host<p>
 
 <img src="./screenshots/screenshot1.png"/>
 <img src="./screenshots/screenshot2.png"/>
