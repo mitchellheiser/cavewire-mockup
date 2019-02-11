@@ -15,7 +15,7 @@ class App extends Component {
       <div className="App">
       <div className='header'>
         <img className="logo" src="https://pbs.twimg.com/profile_images/724827038448758785/Amu9M8J6_400x400.jpg"/>
-        <h1>Project Name</h1>
+        <h1 className='title'>Project Name</h1>
       </div>
         <ImageSlider />
         <Section1/>
