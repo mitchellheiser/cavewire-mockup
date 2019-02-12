@@ -5,7 +5,6 @@ body{
 
 .slider {
   position: relative;
-  width: 500px;
   margin: 0 auto;
   height: 350px;
   width: 800px;
@@ -81,7 +80,7 @@ body{
   margin: 0 auto;
   margin-bottom: 30px;
   height: 400px;
-  padding: 10px;
+  padding-bottom: 10px;
   text-align: center;
    }
 
@@ -290,4 +289,198 @@ body{
 body{ 
 background-color: #222;
 color: white;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 500px) {
+  body{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center
+  }
+  .App {
+
+    margin: 0 auto;
+  }
+
+
+  .slider {
+    position: relative;
+    margin: 0 auto;
+    height:200px;
+    width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  
+  .arrow {
+    height: 30px;
+    width: 30px;
+  }
+
+  
+  .header {
+    width: 300px;
+  }
+  
+  .logo{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .catch {
+    width: 300px;
+    height:200px ;
+    height: 450px;
+    font-size: 1rem;
+     }
+  
+     .Heading{
+       font-size: 1.5rem;
+     }
+  
+    .cwLink {
+      width: 150px;
+      height: 30px;
+      font-size: 1.5rem;
+      
+    }
+  
+    .Image1 {
+      width: 300px;
+      height: 200px;
+      
+    
+    }
+  
+    .subHeading{
+      margin-bottom: 0px;
+    }
+  
+    .blurb {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      width: 300px;
+      text-align: center;
+      line-height: 20px;
+      margin-bottom: 20px;
+    }
+    .img1{
+      width:300px;
+      height: 200;
+    }
+
+    .img2,.img3 {
+      height: 280px;
+      width: 145px;
+    }
+
+    .imageGrid {
+      display: grid;
+      grid-template-columns: repeat(12, 31px);
+      grid-template-rows: repeat(8, 53px);
+      grid-gap: 0.1px;
+      margin-bottom: 15px;
+  }
+  
+  .BreakoutText {
+    position: absolute;
+    right: 210px;
+    width: 150px;
+    font-size: 0.5rem;
+    height: 200px;
+    
+  
+  }
+  
+  .BreakoutImg {
+    width: 200px;
+    height: 200px ;
+    
+  }
+
+  .Breakout {
+    height: 300px;
+  
+  }
+
+  .imageGrid2 {
+    display: grid;
+    grid-template-columns: repeat(12, 30px);
+    grid-template-rows: repeat(8, 40px);
+    width: 320px;
+    margin: 0 auto;
+  
+  }
+  .imageGrid2 div:nth-child(1){
+  width: 300px;
+  }
+
+  .imageGrid2 div:nth-child(2){
+    font-size: 0.4rem;
+    grid-area: 1/2/2/4;
+  }
+
+  .imageGrid2 div:nth-child(3){
+    width: 155px;
+  }
+
+  .imageGrid2 div:nth-child(4){
+    font-size: 0.4rem;
+    grid-area: 4/2/5/4;
+  }
+
+  .imageGrid2 div:nth-child(5){
+    width: 155px;
+
+  }
+
+  .imageGrid2 div:nth-child(6){
+    font-size: 0.4rem;
+    grid-area: 6/2/7/4;
+    height: 50px;
+  }
+
+  
+
+  .img4{
+    width:250px;
+    height: 200;
+  }
+
+  .img5, .img6{
+    width: 122.5px;
+  }
+
+  .footerheader {
+    width: 100%;
+  }
+
+
+  .projects{
+    width: 360px;
+   justify-content: center;
+  }
+
+  .prjImg{
+    width: 60px;
+  }
+  .desc{
+    width: 60px;
+    font-size: 0.4rem;
+
+  }
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 960px) {
+  
+}
+
+/* Desktop styles */
+@media screen and (min-width: 961px) {
+  
 }

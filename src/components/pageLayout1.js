@@ -20,9 +20,9 @@ class section1 extends Component {
 
             </div>
             <div className="imageGrid">
-                <div><img  clasName= "img1" src = "https://picsum.photos/800/365"/></div>
-                <div><img  clasName= "img2" src="https://picsum.photos/395/500"/></div>
-                <div><img  clasName= "img3" src="https://picsum.photos/395/500"/></div>
+                <div><img  className= "img1" src = "https://picsum.photos/800/365"/></div>
+                <div><img  className= "img2" src="https://picsum.photos/395/500"/></div>
+                <div><img  className= "img3" src="https://picsum.photos/395/500"/></div>
             </div>
             </React.Fragment>
          );

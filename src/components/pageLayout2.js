@@ -16,17 +16,17 @@ class pageLayout2 extends Component {
 
             </div>
             <div className="imageGrid2">
-                <div><img   src = "https://picsum.photos/650/340"/></div>
+                <div><img  className="img4"  src = "https://picsum.photos/650/340"/></div>
                 <div>
                     <h3 className="caption">Image Caption</h3>
                     <p className="imgText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                 </div>
-                <div><img   src="https://picsum.photos/320/400"/></div>
+                <div><img className="img5"   src="https://picsum.photos/320/400"/></div>
                 <div>
                     <h3 className="caption">Image Caption</h3>
                     <p className="imgText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                     </div>
-                <div><img   src="https://picsum.photos/320/400"/></div>
+                <div><img className="img6"   src="https://picsum.photos/320/400"/></div>
                 <div>
                     <h3 className="caption">Image Caption</h3>
                     <p className="imgText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>

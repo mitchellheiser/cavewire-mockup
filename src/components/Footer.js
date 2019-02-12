@@ -12,24 +12,24 @@ class Foooter extends Component {
                 </div>
                 <div className="projects">
                 <div className="projectTile">
-                    <img src = "https://picsum.photos/200/100"/>
+                    <img className="prjImg" src = "https://picsum.photos/200/100"/>
                     <h5 className="caption">PROJECT NAME</h5>
-                    <p>Lorem ipsum dolor sit amet</p>
+                    <p className="desc">Lorem ipsum dolor sit amet</p>
                 </div>
                 <div className="projectTile">
-                    <img src = "https://picsum.photos/200/100"/>
+                    <img className="prjImg" src = "https://picsum.photos/200/100"/>
                     <h5 className="caption">PROJECT NAME</h5>
-                    <p>Lorem ipsum dolor sit amet</p>
+                    <p className="desc">Lorem ipsum dolor sit amet</p>
                 </div>
                 <div className="projectTile">
-                    <img src = "https://picsum.photos/200/100"/>
+                    <img className="prjImg" src = "https://picsum.photos/200/100"/>
                     <h5 className="caption">PROJECT NAME</h5>
-                    <p>Lorem ipsum dolor sit amet</p>
+                    <p className="desc">Lorem ipsum dolor sit amet</p>
                 </div>
                 <div className="projectTile">
-                    <img src = "https://picsum.photos/200/100"/>
+                    <img className="prjImg" src = "https://picsum.photos/200/100"/>
                     <h5 className="caption">PROJECT NAME</h5>
-                    <p>Lorem ipsum dolor sit amet</p>
+                    <p className="desc">Lorem ipsum dolor sit amet</p>
                 </div>
                 </div>
             </React.Fragment>
