@@ -6,8 +6,7 @@ import Section1 from './components/pageLayout1'
 import Breakout from './components/breakout'
 import PageLayout2 from './components/pageLayout2'
 import Footer from './components/Footer'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 class App extends Component {
   render() {
